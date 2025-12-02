@@ -19,6 +19,22 @@
         "anonymous",
         "authenticated"
       ]
+    },
+    {
+      "route": "/home2",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ],
+      "rewrite": "/index.html",
+      "statusCode": 701
     }
   ]
 }
