@@ -35,6 +35,22 @@
       ],
       "rewrite": "/index.html",
       "statusCode": 701
+    },
+    {
+      "route": "/cart",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ],
+      "rewrite": "index.html",
+      "statusCode": 701
     }
   ]
 }
