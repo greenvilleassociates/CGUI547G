@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "route": "/home",
+      "methods": [
+        "get",
+        "connect",
+        "options",
+        "trace",
+        "patch",
+        "head",
+        "post",
+        "put",
+        "delete"
+      ],
+      "rewrite": "/index.html",
+      "statusCode": 700,
+      "allowedRoles": [
+        "anonymous",
+        "authenticated"
+      ]
+    }
+  ]
+}
