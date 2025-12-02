@@ -66,6 +66,7 @@
         "patch"
       ],
       "rewrite": "index.html",
+      "statusCode": 701,
       "allowedRoles": [
         "anonymous"
       ]
