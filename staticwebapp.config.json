@@ -51,6 +51,24 @@
       ],
       "rewrite": "index.html",
       "statusCode": 701
+    },
+    {
+      "route": "/details",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ],
+      "rewrite": "index.html",
+      "allowedRoles": [
+        "anonymous"
+      ]
     }
   ]
 }
